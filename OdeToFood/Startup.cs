@@ -1,9 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OdeToFood.Data;
+using OdeToFood.Repository;
+using OdeToFood.Repository.Interfaces;
+using OdeToFood.Service;
+using OdeToFood.Service.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +30,17 @@ namespace OdeToFood
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddRazorPages();
+
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodConnection")));
+
+            //REPOSITORIES
+            services.AddTransient<IRestaurantRepository, RestaurantRepository>();
+
+            //SERVICES
+            services.AddTransient<IRestaurantService, RestaurantService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +57,7 @@ namespace OdeToFood
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -48,9 +66,11 @@ namespace OdeToFood
 
             app.UseEndpoints(endpoints =>
             {
+                // Home/Index/4     4 is optional
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

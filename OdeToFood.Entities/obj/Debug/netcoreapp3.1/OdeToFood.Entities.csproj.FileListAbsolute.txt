@@ -1,0 +1,9 @@
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\bin\Debug\netcoreapp3.1\OdeToFood.Entities.deps.json
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\bin\Debug\netcoreapp3.1\OdeToFood.Entities.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\bin\Debug\netcoreapp3.1\OdeToFood.Entities.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.AssemblyInfoInputs.cache
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.AssemblyInfo.cs
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Entities\obj\Debug\netcoreapp3.1\OdeToFood.Entities.csprojAssemblyReference.cache

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OdeToFood\OdeToFood.csproj" />
+    <ProjectReference Include="..\OdeToFood.Repository\OdeToFood.Repository.csproj" />
   </ItemGroup>
 
 </Project>

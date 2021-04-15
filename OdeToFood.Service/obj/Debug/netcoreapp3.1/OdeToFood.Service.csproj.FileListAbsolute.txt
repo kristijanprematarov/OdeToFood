@@ -1,16 +1,6 @@
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Views.dll
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Views.pdb
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.deps.json
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.runtimeconfig.json
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.runtimeconfig.dev.json
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.exe
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Service.deps.json
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Service.dll
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Service.pdb
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.dll
-C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.pdb
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.csprojAssemblyReference.cache
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.AssemblyInfoInputs.cache
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.AssemblyInfo.cs
@@ -18,3 +8,9 @@ C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.csproj.CopyComplete
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.dll
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\obj\Debug\netcoreapp3.1\OdeToFood.Service.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Entities.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Entities.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Data.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Repository.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Repository.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Service\bin\Debug\netcoreapp3.1\OdeToFood.Data.pdb

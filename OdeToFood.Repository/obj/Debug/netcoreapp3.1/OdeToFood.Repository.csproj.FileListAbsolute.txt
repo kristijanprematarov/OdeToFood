@@ -1,0 +1,14 @@
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.csprojAssemblyReference.cache
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.AssemblyInfoInputs.cache
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.AssemblyInfo.cs
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Repository.deps.json
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Repository.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Repository.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Entities.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Entities.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.csproj.CopyComplete
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\obj\Debug\netcoreapp3.1\OdeToFood.Repository.pdb
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Data.dll
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood.Repository\bin\Debug\netcoreapp3.1\OdeToFood.Data.pdb

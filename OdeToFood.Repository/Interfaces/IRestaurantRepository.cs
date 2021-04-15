@@ -11,5 +11,7 @@ namespace OdeToFood.Repository.Interfaces
         Restaurant Get(int id);
 
         Restaurant AddRestaurant(Restaurant restaurant);
+
+        Restaurant UpdateRestaurant(Restaurant restaurant);
     }
 }

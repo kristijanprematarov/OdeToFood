@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 
 namespace OdeToFood.Repository
 {
@@ -36,6 +37,13 @@ namespace OdeToFood.Repository
             var restaurants = _context.Restaurants.AsEnumerable();
 
             return restaurants;
+        }
+
+        public Restaurant UpdateRestaurant(Restaurant restaurant)
+        {
+            _context.Update(restaurant);
+            _context.SaveChanges();
+            return restaurant;
         }
     }
 }

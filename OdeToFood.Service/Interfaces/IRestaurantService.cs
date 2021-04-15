@@ -13,5 +13,7 @@ namespace OdeToFood.Service.Interfaces
         Restaurant AddRestaurant(Restaurant restaurant);
 
         string MessageOfTheDay();
+
+        Restaurant UpdateRestaurant(Restaurant restaurant);
     }
 }

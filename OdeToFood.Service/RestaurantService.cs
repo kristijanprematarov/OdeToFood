@@ -24,7 +24,7 @@ namespace OdeToFood.Service
 
         public Restaurant Get(int id)
         {
-            var restaurant =_restaurantRepository.Get(id);
+            var restaurant = _restaurantRepository.Get(id);
             return restaurant;
         }
 
@@ -37,6 +37,12 @@ namespace OdeToFood.Service
         public string MessageOfTheDay()
         {
             return "Have an awesome day";
+        }
+
+        public Restaurant UpdateRestaurant(Restaurant restaurant)
+        {
+            _restaurantRepository.UpdateRestaurant(restaurant);
+            return restaurant;
         }
     }
 }

@@ -90,3 +90,6 @@ C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\_LayoutRazor.cshtml.g.cs
 C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Views\Home\_SummaryPartial.cshtml.g.cs
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\RestaurantMessage\Default.cshtml.g.cs
+C:\Users\Kristijan\source\repos\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

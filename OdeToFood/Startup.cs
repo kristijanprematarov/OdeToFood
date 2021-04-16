@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,11 +33,25 @@ namespace OdeToFood
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //AUTHENTICATION
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;  //how do we authenticate users --> cookies, tokens or what here we use the cookie scheme
+                //this tells asp.net core how we authenticate
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme; //we challenge a user to authenticate
+            })
+            .AddOpenIdConnect(options =>
+            {
+                Configuration.Bind("AzureActiveDirectory", options);
+                //vaka e za azure
+            })
+            .AddCookie();
+
             services.AddControllersWithViews();
 
             services.AddRazorPages();
 
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodConnectionHome")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodConnection")));
 
             //REPOSITORIES
             services.AddTransient<IRestaurantRepository, RestaurantRepository>();
@@ -56,11 +74,16 @@ namespace OdeToFood
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseRewriter(new RewriteOptions().AddRedirectToHttpsPermanent());
+
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

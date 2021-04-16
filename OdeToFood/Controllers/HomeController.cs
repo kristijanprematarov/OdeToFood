@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OdeToFood.Entities;
 using OdeToFood.Models;
@@ -11,7 +12,8 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace OdeToFood.Controllers
-{     
+{
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -23,6 +25,7 @@ namespace OdeToFood.Controllers
             _restaurantService = restaurantService;
         }
 
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var model = new HomeIndexViewModel();

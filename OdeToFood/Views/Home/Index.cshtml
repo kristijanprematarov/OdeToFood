@@ -5,29 +5,19 @@
 }
 
 <h1 class="display-5 text-center">@Model.CurrentMessage</h1>
+
 <table class="table table-bordered table-hover">
     <tr>
-        <th>Restaurant ID</th>
         <th>Restaurant Name</th>
         <th>Cuisine</th>
         <th>Details</th>
     </tr>
     @foreach (var restaurant in Model.Restaurants)
     {
-        <tr>
-            <td>@restaurant.Id</td>
-            <td>@restaurant.Name</td>
-            <td>@restaurant.Cuisine</td>
-            <td>
-                @*<a class="btn btn-block btn-info" href="/home/details/@restaurant.Id">DETAILS</a>*@
-                @*@Html.ActionLink("DETAILS","Details","Home",new {id = restaurant.Id}, new {@class = "btn btn-info btn-block"})*@
-                <a class="btn btn-block btn-info" asp-controller="Home" asp-action="Details" asp-route-id="@restaurant.Id">DETAILS</a>
-                <a class="btn btn-block btn-info" asp-page="/Restaurants/Edit" asp-route-id="@restaurant.Id">EDIT</a>
-                @*public IActionResult Details(int ID) --> asp-route-ID !!!   *@
-                @*public IActionResult Details(int KRIS) --> asp-route-KRIS !!!   *@
-            </td>
-        </tr>
+        <partial name="_SummaryPartial" model="restaurant" />
     }
+
 </table>
+
 <a class="btn btn-primary" asp-controller="Home" asp-action="Create">Add Restaurant</a>
 

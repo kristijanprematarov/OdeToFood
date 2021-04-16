@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fizv6+LnE5JfQ+1zf+jEWmJ+m512V61TXhBkKlSeXNreKHnzUHQCjVYnPjy9svR08ko8RXPCiE++utXbJqeGEQ==",
+  "dgSpecHash": "Lr7OGw0vbrnotoIhiwhVEJyUnk9VIBTt0pXsVuNLQ8aKu8Rb1mDbitLU8vv81mj5Gb31v6Merm6TtFn2MRBfJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kristijan\\source\\repos\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kristijan\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.14\\microsoft.aspnetcore.authentication.openidconnect.3.1.14.nupkg.sha512",
     "C:\\Users\\Kristijan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kristijan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Kristijan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -8,7 +8,14 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_1"
+      "NETCOREAPP3_1",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "8.0",
     "platform": "",
@@ -24,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "OdeToFood/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.14",
           "Microsoft.EntityFrameworkCore": "3.1.14",
           "Microsoft.EntityFrameworkCore.Design": "3.1.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.14",
@@ -306,6 +314,20 @@
         },
         "compile": {
           "OdeToFood.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.14": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "3.1.14.0",
+            "fileVersion": "3.100.1421.16608"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -3068,6 +3090,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5UjjgzV4/ohhsFT7EH/gDjwNr6tpmgpmKo42W9aHEQ4fY6tUreTc4LLzu1l4zxEskxoz7x8Y2SbEOHBjriOotA==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.14",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.14.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

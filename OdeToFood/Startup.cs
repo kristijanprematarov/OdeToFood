@@ -51,7 +51,7 @@ namespace OdeToFood
 
             services.AddRazorPages();
 
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodConnection")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodConnectionHome")));
 
             //REPOSITORIES
             services.AddTransient<IRestaurantRepository, RestaurantRepository>();
